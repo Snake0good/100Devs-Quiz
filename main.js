@@ -612,12 +612,19 @@ const beginTestBtn = document.querySelector("#begin");
 
 
 
-
+// check whether the quiz-type was chosen
 beginTestBtn.addEventListener('click', () => {
-    questionsModal.style.display = 'flex'; 
-    finalScoreModal.style.display = 'none';
-    selectionModal.style.display = 'none';
+    console.log(questionsToAsk)
+    if (questionsToAsk === undefined) { 
+        document.querySelector("#choose-type").style.outline = "3px solid red"
+    } else {
+        questionsModal.style.display = 'flex'; 
+        finalScoreModal.style.display = 'none';
+        selectionModal.style.display = 'none';
+    } 
 });
+
+
 
 // load the appropriate questionBank to the Quiz Data
 let questionsToAsk = [];
