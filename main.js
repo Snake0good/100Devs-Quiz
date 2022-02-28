@@ -12,7 +12,7 @@ const javascriptQuestions = [
         a: "yes, <code>message</code> has been declared;", 
         b: "no, you need <code>let message = ''</code>", 
         c: "yes, <code>message</code> will now be a string", 
-        d: "no, you need message content liek <let message = 'hello'</code>",
+        d: "no, you need message content like <code>let message = 'hello'</code>",
         correctAnswer: 'a'
     },
     { 
