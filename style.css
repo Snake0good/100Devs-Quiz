@@ -26,6 +26,7 @@ body {
     justify-content: center;
     width: 100%;
     height: 100vh;
+    overflow: hidden;
     min-height: fit-content;
     font-size: 16px;
 
