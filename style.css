@@ -255,8 +255,11 @@ body {
     padding: 50px;
 }
 
-#final-score-modal h2, #final-score-modal h1 {
+#final-score-modal h2, #final-score-modal h1, #final-score-modal h3 {
     margin: 0;
+    padding: 10px;
+    border-radius: 5px;
+    background-color: rgba(0,0,0,0.5);
 }
 
 #final-score-modal h2 {
