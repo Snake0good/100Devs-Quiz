@@ -27,7 +27,6 @@ body {
     justify-content: center;
     width: 100%;
     height: 100vh;
-    overflow: hidden;
     min-height: fit-content;
     font-size: 16px;
 
@@ -49,8 +48,11 @@ body {
 /* currently working on....
 
 
-
+#final-score-modal 
 */
+
+
+
 
 
 
@@ -68,6 +70,13 @@ body {
     color: var(--white)
 }
 /* ======== SILLY STUFF ============ */
+
+
+
+
+
+
+
 
 
 
@@ -220,7 +229,7 @@ body {
     display: inline-block;
     color: var(--gray);
     padding: 10px 17px;
-    border: none;
+    border: 1px solid transparent;
     border-radius: 5px;
     font-family: Arial;
     font-size: 1rem;
@@ -236,7 +245,7 @@ body {
 }
 
 .quiz input[type="radio"]:hover+label {
-    outline: 3px solid var(--gray);
+    border: 1px solid var(--gray);
     transition: 0.2s;
 }
 
@@ -296,7 +305,7 @@ body {
 
     .viewing-container {
         width: 95%;
-        height: 80%;
+        height: 95%;
         padding: 15px;
     }
 
@@ -319,7 +328,7 @@ body {
     }
 
     .quiz {
-        width: 95%
+        width: 88%
     }
 
     .quiz-choice-and-labels {
