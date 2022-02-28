@@ -611,8 +611,10 @@ const leaderboardModal = document.querySelector("#leaderboard");
 const beginTestBtn = document.querySelector("#begin");
 
 
+// load the appropriate questionBank to the Quiz Data
+let questionsToAsk;
 
-// check whether the quiz-type was chosen
+
 beginTestBtn.addEventListener('click', () => {
     console.log(questionsToAsk)
     if (questionsToAsk === undefined) { 
@@ -621,13 +623,11 @@ beginTestBtn.addEventListener('click', () => {
         questionsModal.style.display = 'flex'; 
         finalScoreModal.style.display = 'none';
         selectionModal.style.display = 'none';
-    } 
+    }
+    
 });
 
 
-
-// load the appropriate questionBank to the Quiz Data
-let questionsToAsk = [];
 
 javascriptBtn.addEventListener('click', () => {
     // todo 
