@@ -52,9 +52,20 @@ body {
 
 
 
-/* ------- SVG Background Choices -------- */
 
 
+/* ======== SILLY STUFF ============ */
+.modal {
+    background-image: url(leonwinkgif.gif);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+}
+
+#final-score-modal {
+    color: var(--white)
+}
+/* ======== SILLY STUFF ============ */
 
 
 
@@ -66,9 +77,6 @@ body {
 
 
 /* ------ Selection Modal ------ */
-
-
-
 .difficulty label {
     display: inline-block;
     width: 100px; 
