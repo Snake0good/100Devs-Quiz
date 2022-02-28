@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Quiz App</title>
+</head>
+<body>
+
+<!-- SELETION MODAL -->
+    <div id="selection-modal" class="modal">
+        <div class="viewing-container">
+            <h1>#100 Devs Quiz</h1>
+            
+            <div class="quiz-choice-and-labels">
+                <p>Pick a quiz type to practice <br> <span>since I know you aren't doing your Anki</span> </p>
+
+                <div class="quiz-choice-container">
+                    <input name="quiz-type" type="radio" class="quiz-type" id="html">
+                    <label for="html">HTML</label>
+    
+                    <input name="quiz-type" type="radio" class="quiz-type" id="css">
+                    <label for="css">CSS</label>
+    
+                    <input name="quiz-type" type="radio" class="quiz-type" id="javascript">
+                    <label for="javascript">JavaScript</label>
+                </div>
+    
+            </div>
+            
+            
+            <div class="difficulty">
+                <h3>Choose Difficulty:</h3>
+                <p>...coming soon...</p>
+                <!-- <label><input name="difficulty" type="radio" id="easy" c>Easy</label>
+                <label><input name="difficulty" type="radio" id="hard" disabled>Hard</label> -->
+            </div>
+
+
+            <div class="btn-container">
+                <button class="btn" id="begin">Begin!</button>
+                <button class="btn leaderboard">Leaderboard</button>
+            </div>
+           
+        </div>
+    </div>
+
+
+
+<!-- QUESTION MODAL and stuff -->
+    <div id="questions-modal" class="modal">
+        <div class="quiz-container viewing-container">
+            <div id="quiz" class="quiz">
+                
+                <h2 id="quiz-question">What is the question?</h2>
+                <ul>
+                    <li>
+                        <input type="radio" id="a" name="answer" class="answer"><label id="a_text" for="a">Lorem ipsum dolor sit, amet</label>
+                    </li>
+                    <li>
+                        <input type="radio" id="b" name="answer" class="answer"><label id="b_text" for="b">dolor sit, amet consectetur</label>
+                    </li>
+                    <li>
+                        <input type="radio" id="c" name="answer" class="answer"><label id="c_text" for="c">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Magnam</label>
+                    </li>
+                    <li>
+                        <input type="radio" id="d" name="answer" class="answer"><label id="d_text" for="d">Lorem ipsum dolor sit, amet</label>
+                    </li>
+                </ul>
+            </div>
+            <button id="submit" class="btn">Next</button>
+        </div>
+    </div>
+
+
+
+<!-- FINAL SCORE modal  -->
+    <div id="final-score-modal">
+        <div class="modal viewing-container">
+            <h1>Your final score is <span id="score">00</span>/20</h1>
+
+            <h2><span id="score-percent">82</span>%</h2>
+            
+            <h3 id="encouragement">(replace)</h3>
+            <button id="tryagain" class="tryagain btn">Try Again?</button>
+            <button class="btn leaderboard">Leaderboard</button>
+        </div>
+    </div>
+    
+
+
+<!-- LEADERBOARD STATS -->
+    <div id="leaderboard">
+        <div class="modal viewing-container">
+            <div id="leaderboard-display">
+                <h1>Coming soon!</h1>
+                <img src="mongo-logo.png" alt="mongo-log">
+                <h2>work needed</h2>
+                <!-- temporary -->
+                <!-- <table>
+                    <h1>HTML</h1>
+                    <tr>
+                      <th>Name</th>
+                      <th>Score</th>
+                      <th>Country</th>
+                    </tr>
+                    <tr>
+                      <td>Karl</td>
+                      <td>100%</td>
+                      <td>Germany</td>
+                    </tr>
+                    <tr>
+                      <td>Rosa</td>
+                      <td>99%</td>
+                      <td>Mexico</td>
+                    </tr>
+                    <tr>
+                        <td>Betty</td>
+                        <td>95%</td>
+                        <td>USA</td>
+                      </tr>
+                </table>
+    
+                <table>
+                    <h1>CSS</h1>
+                    <tr>
+                      <th>Name</th>
+                      <th>Score</th>
+                      <th>Country</th>
+                    </tr>
+                    <tr>
+                      <td>Karl</td>
+                      <td>100%</td>
+                      <td>Germany</td>
+                    </tr>
+                    <tr>
+                      <td>Rosa</td>
+                      <td>99%</td>
+                      <td>Mexico</td>
+                    </tr>
+                    <tr>
+                        <td>Betty</td>
+                        <td>95%</td>
+                        <td>USA</td>
+                      </tr>
+                </table>
+    
+                <table>
+                    <h1>JavaScript</h1>
+                    <tr>
+                      <th>Name</th>
+                      <th>Score</th>
+                      <th>Country</th>
+                    </tr>
+                    <tr>
+                      <td>Karl</td>
+                      <td>100%</td>
+                      <td>Germany</td>
+                    </tr>
+                    <tr>
+                      <td>Rosa</td>
+                      <td>99%</td>
+                      <td>Mexico</td>
+                    </tr>
+                    <tr>
+                        <td>Betty</td>
+                        <td>95%</td>
+                        <td>USA</td>
+                      </tr>
+                </table> -->
+            </div>
+    
+            <button id="back-to-home" class="tryagain btn">Back to the Quiz</button>
+        </div>
+    </div> 
+    
+    
+    
+    <script src="main.js"></script>
+</body>
+</html>
