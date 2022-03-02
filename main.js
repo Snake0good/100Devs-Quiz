@@ -80,7 +80,7 @@ const javascriptQuestions = [
         correctAnswer: 'b'
     },
     { 
-        question: `In the function <br> <code>showCount(count) { <br> alert(count ?? "unknown")</code> <br>What will be shown when you call <code>showCount(0)</code>?`, 
+        question: `In the function <br> <code>showCount(count) { alert(count ?? "unknown")</code> <br> What will be shown when you call <code>showCount(0)</code>?`, 
         a: "unknown", 
         b: "0", 
         c: "nothing", 
@@ -165,7 +165,7 @@ const javascriptQuestions = [
 
 const cssQuestions = [
     { 
-        question: "What is continuous cascade styling commonly referred to?", 
+        question: "What is Continuous Cascade Styling commonly referred to?", 
         a: "HTML", 
         b: "CSS", 
         c: "JS", 
@@ -173,156 +173,156 @@ const cssQuestions = [
         correctAnswer: 'b'
     }, 
     {
-        question: "Can you center a div?", 
-        a: "no, impossible", 
-        b: "yes, it's easy with floats", 
-        c: "there are multiple ways, but it's a meme", 
-        d: "yes. flex, justify, and align",
-        correctAnswer: 'd'
+        question: "What does the property <code>background-clip</code> do?", 
+        a: "defines how far the background should extend within an element", 
+        b: "specifies a video attribute (or .gif) for a background", 
+        c: "clips the borders of an image", 
+        d: "sets how a background layer will appear",
+        correctAnswer: 'a'
     }, 
     { 
-        question: "Why is CSS separate from HTML and JS?", 
-        a: "fun", 
-        b: "separation of identity", 
-        c: "for confusion", 
-        d: "for clarity",
+        question: "What is the correct order to use when using the property <code>border</code>", 
+        a: "border-style, border-width, border-color", 
+        b: "border-style, border-color, border-width",
+        c: "border-width, border-style, border-color",
+        d: "border-width, border-color, border-style",
+        correctAnswer: 'c'
+    }, 
+    {
+        question: "When using the property <code>@charset</code> what are you referring to?", 
+        a: 'specifies which character element will be selected', 
+        b: "similar to a media query, it provides a character query", 
+        c: "sets the color and character set of the text", 
+        d: "specifies the character encoding used in the style sheet",
+        correctAnswer: 'd'
+    }, 
+    {
+        question: "Which is NOT a common property value of <code>display</code>?", 
+        a: 'inline'  , 
+        b: "flex", 
+        c: "float", 
+        d: "block",
+        correctAnswer: 'c'
+    }, 
+    {
+        question: "Which is the default <code>font-style</code>?", 
+        a: 'san serif'  , 
+        b: "normal", 
+        c: "Verdana", 
+        d: "inherit",
         correctAnswer: 'b'
     }, 
     {
-        question: "This is a test test question. The answer is A", 
-        a: 'my brain is fried, I need to take a break '  , 
-        b: "ouch, that's it i'm done", 
-        c: "it's a meme. i need to add pictures", 
-        d: "DOH! goes Homer Simpson",
+        question: "How would you import another <code>font-family</code> in a stylesheet?", 
+        a: '@import'  , 
+        b: "@import_font", 
+        c: "@font_import", 
+        d: "@import font-family",
         correctAnswer: 'a'
     }, 
     {
-        question: "This is a test test question. The answer is A", 
-        a: 'my brain is fried, I need to take a break '  , 
-        b: "ouch, that's it i'm done", 
-        c: "it's a meme. i need to add pictures", 
-        d: "DOH! goes Homer Simpson",
+        question: "How is <code>margin</code> best explained?", 
+        a: "margin is the space between an element's border and and element inside"  , 
+        b: "the margin sets a minimum amount of space", 
+        c: "specififies the curve of the element", 
+        d: "margin is the distance between elements",
+        correctAnswer: 'd'
+    }, 
+    {
+        question: "<code>div > p</code> What does this do?", 
+        a: 'Selects all \< p \> elements where the parent is a \< div \> element'  , 
+        b: "Selects all \< p \> elements inside \< div \> elements", 
+        c: "Selects the first \< p \> element that is placed immediately after \< div \> elements", 
+        d: "Selects all \< div \> elements and all \< p \> elements",
         correctAnswer: 'a'
     }, 
     {
-        question: "This is a test test question. The answer is A", 
-        a: 'my brain is fried, I need to take a break '  , 
-        b: "ouch, that's it i'm done", 
-        c: "it's a meme. i need to add pictures", 
-        d: "DOH! goes Homer Simpson",
+        question: "What does <code>p::after</code> do?", 
+        a: 'Inserts a \< p \> element after the content'  , 
+        b: "Insert something before the content of each \< p \> element", 
+        c: "Insert something after the content of each \< p \> element", 
+        d: "Inserts a \< p \> where selected",
+        correctAnswer: 'c'
+    }, 
+    {
+        question: "What does <code>a:active</code> do?", 
+        a: 'Automatically selects a link'  , 
+        b: "Selects the active link", 
+        c: "Activates the selected link", 
+        d: "Selects every active <a> tag",
+        correctAnswer: 'b'
+    }, 
+    { 
+        question: "What is often found in the <code>:root</code> selector?", 
+        a: 'colors'  , 
+        b: "pictures", 
+        c: "inputs", 
+        d: "other selector elements",
+        correctAnswer: 'a'
+    }, 
+    { 
+        question: "How do you animate properties in CSS?", 
+        a: '@animate'  , 
+        b: "@keyframes", 
+        c: "@move", 
+        d: "@media",
+        correctAnswer: 'b'
+    }, 
+    {
+        question: "What does the funcion <code>calc()</code> do in CSS?", 
+        a: 'inserts the value of a custom property'  , 
+        b: "uses the smallest value, from a comma-separated list of values, as the property value", 
+        c: "returns the current value of the named calculation", 
+        d: "allows you to perform calculations to determine CSS property values",
+        correctAnswer: 'd'
+    }, 
+    {
+        question: "What does the funcion <code>cubic-bezier()</code> do in CSS?", 
+        a: "defines a Cubic Bezier curve, often used for movement", 
+        b: "defines a Cubic Bezier curve, often used for colors", 
+        c: "defines a Cubic Bezier curve, often used for fonts", 
+        d: "defines a Cubic Bezier curve, often used for width definition", 
         correctAnswer: 'a'
     }, 
     {
-        question: "This is a test test question. The answer is A", 
-        a: 'my brain is fried, I need to take a break '  , 
-        b: "ouch, that's it i'm done", 
-        c: "it's a meme. i need to add pictures", 
-        d: "DOH! goes Homer Simpson",
+        question: "Which type of CSS unit is not used for length", 
+        a: 'mm'  , 
+        b: "px", 
+        c: "em", 
+        d: "vc",
+        correctAnswer: 'd'
+    }, 
+    {
+        question: "Does CSS assist with speech synthesis?", 
+        a: 'yes, with Aural Reference'  , 
+        b: "no, JavaScript is needed", 
+        c: "", 
+        d: "",
         correctAnswer: 'a'
     }, 
     {
-        question: "This is a test test question. The answer is A", 
-        a: 'my brain is fried, I need to take a break '  , 
-        b: "ouch, that's it i'm done", 
-        c: "it's a meme. i need to add pictures", 
-        d: "DOH! goes Homer Simpson",
-        correctAnswer: 'a'
+        question: "What does the property <code>resize</code> do?", 
+        a: 'specifies the alignment of resizable elements'  , 
+        b: "defines if (and how) an element is resizable by the user", 
+        c: "applies a 2D or 3D transformation to an element", 
+        d: "specifies whether an element has a transformation",
+        correctAnswer: 'b'
     }, 
     {
-        question: "This is a test test question. The answer is A", 
-        a: 'my brain is fried, I need to take a break '  , 
-        b: "ouch, that's it i'm done", 
-        c: "it's a meme. i need to add pictures", 
-        d: "DOH! goes Homer Simpson",
-        correctAnswer: 'a'
+        question: "Which <code>tansform</code> property value does NOT exist?", 
+        a: 'none'  , 
+        b: "translate3d", 
+        c: "scaleXYZ", 
+        d: "perspective",
+        correctAnswer: 'c'
     }, 
     {
-        question: "This is a test test question. The answer is A", 
-        a: 'my brain is fried, I need to take a break '  , 
-        b: "ouch, that's it i'm done", 
-        c: "it's a meme. i need to add pictures", 
-        d: "DOH! goes Homer Simpson",
-        correctAnswer: 'a'
-    }, 
-    {
-        question: "This is a test test question. The answer is A", 
-        a: 'my brain is fried, I need to take a break '  , 
-        b: "ouch, that's it i'm done", 
-        c: "it's a meme. i need to add pictures", 
-        d: "DOH! goes Homer Simpson",
-        correctAnswer: 'a'
-    }, 
-    {
-        question: "This is a test test question. The answer is A", 
-        a: 'my brain is fried, I need to take a break '  , 
-        b: "ouch, that's it i'm done", 
-        c: "it's a meme. i need to add pictures", 
-        d: "DOH! goes Homer Simpson",
-        correctAnswer: 'a'
-    }, 
-    {
-        question: "This is a test test question. The answer is A", 
-        a: 'my brain is fried, I need to take a break '  , 
-        b: "ouch, that's it i'm done", 
-        c: "it's a meme. i need to add pictures", 
-        d: "DOH! goes Homer Simpson",
-        correctAnswer: 'a'
-    }, 
-    {
-        question: "This is a test test question. The answer is A", 
-        a: 'my brain is fried, I need to take a break '  , 
-        b: "ouch, that's it i'm done", 
-        c: "it's a meme. i need to add pictures", 
-        d: "DOH! goes Homer Simpson",
-        correctAnswer: 'a'
-    }, 
-    {
-        question: "This is a test test question. The answer is A", 
-        a: 'my brain is fried, I need to take a break '  , 
-        b: "ouch, that's it i'm done", 
-        c: "it's a meme. i need to add pictures", 
-        d: "DOH! goes Homer Simpson",
-        correctAnswer: 'a'
-    }, 
-    {
-        question: "This is a test test question. The answer is A", 
-        a: 'my brain is fried, I need to take a break '  , 
-        b: "ouch, that's it i'm done", 
-        c: "it's a meme. i need to add pictures", 
-        d: "DOH! goes Homer Simpson",
-        correctAnswer: 'a'
-    }, 
-    {
-        question: "This is a test test question. The answer is A", 
-        a: 'my brain is fried, I need to take a break '  , 
-        b: "ouch, that's it i'm done", 
-        c: "it's a meme. i need to add pictures", 
-        d: "DOH! goes Homer Simpson",
-        correctAnswer: 'a'
-    }, 
-    {
-        question: "This is a test test question. The answer is A", 
-        a: 'my brain is fried, I need to take a break '  , 
-        b: "ouch, that's it i'm done", 
-        c: "it's a meme. i need to add pictures", 
-        d: "DOH! goes Homer Simpson",
-        correctAnswer: 'a'
-    }, 
-    {
-        question: "This is a test test question. The answer is A", 
-        a: 'my brain is fried, I need to take a break '  , 
-        b: "ouch, that's it i'm done", 
-        c: "it's a meme. i need to add pictures", 
-        d: "DOH! goes Homer Simpson",
-        correctAnswer: 'a'
-    }, 
-    {
-        question: "This is a test test question. The answer is A", 
-        a: 'my brain is fried, I need to take a break '  , 
-        b: "ouch, that's it i'm done", 
-        c: "it's a meme. i need to add pictures", 
-        d: "DOH! goes Homer Simpson",
-        correctAnswer: 'a'
+        question: "Should you ever use the <code>float</code> property?", 
+        a: "NEVER!", 
+        b: "Floats are cool. I like floats.", 
+        c: "I hate floats. Flex-box all the way", 
+        d: "in very specific cases, like a newspaper with words wrapping around it",
+        correctAnswer: 'd'
     }
     
 ];
@@ -503,7 +503,13 @@ let javascriptBtn = document.querySelector('#javascript');
 let currentQuizQuestion = 0;
 let score = 0;
 
+// a hack to get the body overflow hidden 
+document.body.style.overflow = 'hidden';
 
+
+
+
+// select all the question and answers
 const questionText = document.querySelector('#quiz-question');
 const a_text = document.querySelector('#a_text');
 const b_text = document.querySelector('#b_text');
@@ -512,6 +518,7 @@ const d_text = document.querySelector('#d_text');
 const answerEls = document.querySelectorAll('.answer');
 
 const submitBtn = document.getElementById('submit');
+const questionNumberText = document.querySelector("#question-number");
 
 function loadQuiz(questionBank) {
     deselectAnswers();
@@ -519,20 +526,29 @@ function loadQuiz(questionBank) {
     // have to change with each click of the html, css, js buttons...
     const currentQuizData = questionBank[currentQuizQuestion]
 
-
+    // post the questions from quiz to the actual modal
     questionText.innerHTML = `${currentQuizQuestion + 1}.   ${currentQuizData.question}`;
     a_text.innerHTML = currentQuizData.a;
     b_text.innerHTML = currentQuizData.b;
     c_text.innerHTML = currentQuizData.c;
     d_text.innerHTML = currentQuizData.d;
 
-
+    // show question number and total the page
+    questionNumberText.innerHTML = (currentQuizQuestion + 1)
 }
 
 
 // ecouragement on final score modal 
 let encouragment = document.querySelector("#encouragement");
 let scorePercent = document.querySelector('#score-percent');
+
+
+// set up a place to show the wrong answers 
+let wrongAnswers = [];
+
+// select the area to show the wrong answers 
+const wrongAnswerTextArea = document.querySelector("#wrong-answers");
+
 
 // get the next question to display on the screen
 submitBtn.addEventListener('click', () => {
@@ -542,10 +558,13 @@ submitBtn.addEventListener('click', () => {
 
     // this hasn't been checked!! uh oh
     if (answer) {
-        console.log('here is the problem' + score)
-
+        // check if the answer is right
         if (answer === questionsToAsk[currentQuizQuestion].correctAnswer) {
             score++;
+        } else {
+            console.log(currentQuizQuestion);
+            wrongAnswers.push(currentQuizQuestion);
+            
         }
 
         currentQuizQuestion++; 
@@ -558,6 +577,7 @@ submitBtn.addEventListener('click', () => {
             // show score in percentage 
             scorePercent.innerText = (((score / 20) * 100).toFixed(0))
 
+
             // enter an encouragement message 
             if (score === 20) {
                 encouragment.innerHTML = "That was amazing! &#128512;"
@@ -566,16 +586,57 @@ submitBtn.addEventListener('click', () => {
             } else if (score > 16) {
                 encouragment.innerHTML = "Not bad! &#128533; <br> We'll have to find the ones you got wrong (on our next version) so you can study some more!"
             } else if (score > 11) {
-                encouragment.innerHTML = "Oh, so close! &#128533; <br> I'd recommend trying again! Or visiting <a href='https://javascript.info/'>JavaScript.info</a> to get more practice."
+                encouragment.innerHTML = "Oh, so close! &#128533; <br> I'd recommend trying again! Or visiting <a href='https://www.w3schools.com/'>w3schools.com</a> to get more practice."
             } else if (score <= 11) {
-                encouragment.innerHTML = "Hey! Nice try &#128533; <br> but you need to study a bit more. <br> Don't give up! <br> Visit <a href='https://www.w3schools.com/'>w3schools.com</a>  for some good practice"
+                encouragment.innerHTML = "Hey! Nice try &#128533; <br> but you need to study a bit more. <br> Don't give up! <br> Visit <a href='https://www.w3schools.com/'>w3schools.com</a> for some good practice"
             }
 
+            // create an h3 element to check the mistakes
+            let tryAgain = document.createElement('h3');
+            tryAgain.innerHTML = "...Check below for your mistakes..."
+            wrongAnswerTextArea.appendChild(tryAgain);
 
+            for (let i=0; i<wrongAnswers.length; i++) {
+                // loop through the questions, select the wrong answer question and display it.
+                let question = document.createElement('h3');
+                question.innerHTML = `${wrongAnswers[i] + 1} - ${questionsToAsk[wrongAnswers[i]].question}`;
+                wrongAnswerTextArea.appendChild(question);
+
+                // create an answer and push the elemnt to it
+                let answer_a = document.createElement('p');
+                answer_a.innerHTML = `a. ${questionsToAsk[wrongAnswers[i]].a}`;
+                wrongAnswerTextArea.appendChild(answer_a);
+
+                let answer_b = document.createElement('p');
+                answer_b.innerHTML = `b. ${questionsToAsk[wrongAnswers[i]].b}`;
+                wrongAnswerTextArea.appendChild(answer_b);
+
+                let answer_c = document.createElement('p');
+                answer_c.innerHTML = `c. ${questionsToAsk[wrongAnswers[i]].c}`;
+                wrongAnswerTextArea.appendChild(answer_c);
+
+                let answer_d = document.createElement('p');
+                answer_d.innerHTML = `d. ${questionsToAsk[wrongAnswers[i]].d}`;
+                wrongAnswerTextArea.appendChild(answer_d);
+
+                let correctAnswerText = document.createElement('p');
+                correctAnswerText.innerHTML = `Correct Answer: ${questionsToAsk[wrongAnswers[i]].correctAnswer}`;
+                wrongAnswerTextArea.appendChild(correctAnswerText);
+
+
+                // create a, b, c, d and replace that with the answers
+                // a_text.innerHTML = currentQuizData.a;
+                // b_text.innerHTML = currentQuizData.b;
+                // c_text.innerHTML = currentQuizData.c;
+                // d_text.innerHTML = currentQuizData.d;
+            }
+
+            // show the Final Score Modal
             leaderboardModal.style.display = 'none';
             questionsModal.style.display = 'none'; 
             finalScoreModal.style.display = 'flex';
             selectionModal.style.display = 'none';
+            document.body.style.overflow = 'scroll';
 
         }
     }  
@@ -616,7 +677,7 @@ let questionsToAsk;
 
 
 beginTestBtn.addEventListener('click', () => {
-    console.log(questionsToAsk)
+    // check to see if the user has clicked quiz type
     if (questionsToAsk === undefined) { 
         document.querySelector("#choose-type").style.outline = "3px solid red"
     } else {
@@ -633,15 +694,15 @@ javascriptBtn.addEventListener('click', () => {
     // todo 
     // shuffle the javascriptQuestions
     questionsToAsk = javascriptQuestions;
-    loadQuiz(javascriptQuestions);
+    loadQuiz(questionsToAsk);
 });
 cssBtn.addEventListener('click', () => {
     questionsToAsk = cssQuestions;
-    loadQuiz(cssQuestions)
+    loadQuiz(questionsToAsk)
 });
 htmlBtn.addEventListener('click', () => {
     questionsToAsk = htmlQuestions;
-    loadQuiz(htmlQuestions)
+    loadQuiz(questionsToAsk)
 });
 
 
@@ -668,10 +729,12 @@ for (let i=0; i<tryAgainBtn.length; i++) {
         currentQuizQuestion = 0;
         score = 0;
         questionsToAsk = [];
+        wrongAnswers = [];
     })
 }
 
 
+// this is the button function to show the leaderboard (2 pages)
 for (let i=0; i<leaderBoardBtn.length; i++) {
     leaderBoardBtn[i].addEventListener('click', () => {
         leaderboardModal.style.display = 'flex';
