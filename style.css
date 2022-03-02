@@ -3,8 +3,8 @@
     --light-grey: rgb(228, 228, 228);
     --black: #091C45;
     --white: white;
-    --green: #2d6a4f;
-    --yellow: rgb(233, 233, 171);
+    --green: #25a169;
+    --yellow: rgb(255, 255, 255);
 }
 
 * {
@@ -47,11 +47,16 @@ body {
 
 /* currently working on....
 
-
 #final-score-modal 
+
 */
 
 
+
+
+.disabled {
+    color: var(--green)
+}
 
 
 
@@ -188,6 +193,11 @@ body {
     transition: 0.3s;
 }
 
+.btn:active {
+    box-shadow: 0 0 5px 5px var(--black);
+}
+
+
 
 
 
@@ -262,18 +272,36 @@ body {
     text-align: center;
     font-size: 1.5rem;
     padding: 50px;
+    height: fit-content;
 }
 
-#final-score-modal h2, #final-score-modal h1, #final-score-modal h3 {
-    margin: 0;
+#final-score-modal h2, #final-score-modal h1 {
+    margin: 10px;
     padding: 10px;
     border-radius: 5px;
-    background-color: rgba(0,0,0,0.5);
 }
 
 #final-score-modal h2 {
     font-size: 3.0rem;
 }
+
+#final-score-modal h3 {
+    border-top: 1px solid var(--black);
+    padding-top: 25px;
+}
+
+.final-score-viewing {
+    background-color: var(--white);
+    color: var(--black);
+    width: 100%;
+}
+
+.final-score-viewing p {
+    text-align: left;
+    padding-left: 25px;
+}
+
+
 
 
 /* ------ LEADERBOARD -------- */
@@ -288,6 +316,7 @@ body {
 #leaderboard-display {
     text-align: center;
 }
+
 
 
 
