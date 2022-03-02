@@ -18,10 +18,10 @@
                 <p id="choose-type">Pick a quiz type to practice <br> <span>since I know you aren't doing your Anki</span> </p>
 
                 <div class="quiz-choice-container">
-                    <input name="quiz-type" type="radio" class="quiz-type" id="html" disabled>
-                    <label for="html">HTML</label>
+                    <input name="quiz-type" type="radio" class="quiz-type" id="html" class="disabled" disabled>
+                    <label for="html" class="disabled">HTML</label>
     
-                    <input name="quiz-type" type="radio" class="quiz-type" id="css" disabled>
+                    <input name="quiz-type" type="radio" class="quiz-type" id="css">
                     <label for="css">CSS</label>
     
                     <input name="quiz-type" type="radio" class="quiz-type" id="javascript" checked>
@@ -71,6 +71,7 @@
                 </ul>
             </div>
             <button id="submit" class="btn">Next</button>
+            <p><span id="question-number">-</span>/20</p>
         </div>
     </div>
 
@@ -78,7 +79,7 @@
 
 <!-- FINAL SCORE modal  -->
     <div id="final-score-modal">
-        <div class="modal viewing-container">
+        <div class="viewing-container final-score-viewing">
             <h1>Your final score is <span id="score">00</span>/20</h1>
 
             <h2><span id="score-percent">82</span>%</h2>
@@ -86,6 +87,11 @@
             <h3 id="encouragement">(replace)</h3>
             <button id="tryagain" class="tryagain btn">Try Again?</button>
             <button class="btn leaderboard">Leaderboard</button>
+
+             <!-- an area to show the wrong answers -->
+            <div id="wrong-answers">
+
+            </div>
         </div>
     </div>
     
