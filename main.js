@@ -347,148 +347,148 @@ const htmlQuestions = [
         correctAnswer: 'b'
     }, 
     { 
-        question: "Why is HTML so important?", 
-        a: "it's the content, everything else is just fluff", 
-        b: "because Tim Burners Lee", 
-        c: "without it, there would be no CSS or JS", 
-        d: "this is a good question",
+        question: "What tag do you put an image into?", 
+        a: "<code><i></code>", 
+        b: "<code><a></code>", 
+        c: "<code><image></code>", 
+        d: "<code><img></code>", 
+        correctAnswer: 'd'
+    }, 
+    {
+        question: "What do you add to an <code><a></code> tag to open a new web page?", 
+        a: "rel = 'nofollow'",
+        b: "href='https://www.website.com'",
+        c: "target='_blank'", 
+        d: "target='_new'",
+        correctAnswer: 'c'
+    }, 
+    {
+        question: "How would you jump to a footer with an <code><a></code> tag?", 
+        a: "<code><a href='$footer'></a></code>", 
+        b: "<code><a href='footer'></a></code>", 
+        c: "<code><a href='%footer'></a></code>", 
+        d: "<code><a name='footer'></a></code>", 
+        correctAnswer: 'b'
+    }, 
+    {
+        question: "What is a Wayne Gretzky quote?", 
+        a: "you miss 100 of the shots you don't take" , 
+        b: "one you've accepted your flaws, no one can use them against you", 
+        c: "life is like riding a bicycle, to keep your balance you must keep moving", 
+        d: "it does not matter how slowly ou go, as long as you do not stop",
         correctAnswer: 'a'
     }, 
     {
-        question: "This is a test test question. The answer is A", 
-        a: 'my brain is fried, I need to take a break '  , 
-        b: "ouch, that's it i'm done", 
-        c: "it's a meme. i need to add pictures", 
-        d: "DOH! goes Homer Simpson",
+        question: "What is an Albert Einstein quote?", 
+        a: "you miss 100 of the shots you don't take" , 
+        b: "one you've accepted your flaws, no one can use them against you", 
+        c: "life is like riding a bicycle, to keep your balance you must keep moving", 
+        d: "it does not matter how slowly ou go, as long as you do not stop",
+        correctAnswer: 'c'
+    }, 
+    {
+        question: "What is a Confucious quote?", 
+        a: "you miss 100 of the shots you don't take" , 
+        b: "one you've accepted your flaws, no one can use them against you", 
+        c: "life is like riding a bicycle, to keep your balance you must keep moving", 
+        d: "it does not matter how slowly ou go, as long as you do not stop",
+        correctAnswer: 'd'
+    }, 
+    {
+        question: "What is a Tyrion Lannister quote?", 
+        a: "you miss 100 of the shots you don't take" , 
+        b: "one you've accepted your flaws, no one can use them against you", 
+        c: "life is like riding a bicycle, to keep your balance you must keep moving", 
+        d: "it does not matter how slowly ou go, as long as you do not stop",
+        correctAnswer: 'b'
+    }, 
+    {
+        question: "What is a Wayne Gretzky quote?", 
+        a: "you miss 100 of the shots you don't take" , 
+        b: "one you've accepted your flaws, no one can use them against you", 
+        c: "life is like riding a bicycle, to keep your balance you must keep moving", 
+        d: "it does not matter how slowly ou go, as long as you do not stop",
         correctAnswer: 'a'
     }, 
     {
-        question: "This is a test test question. The answer is A", 
-        a: 'my brain is fried, I need to take a break '  , 
-        b: "ouch, that's it i'm done", 
-        c: "it's a meme. i need to add pictures", 
-        d: "DOH! goes Homer Simpson",
+        question: "What is an Albert Einstein quote?", 
+        a: "you miss 100 of the shots you don't take" , 
+        b: "one you've accepted your flaws, no one can use them against you", 
+        c: "life is like riding a bicycle, to keep your balance you must keep moving", 
+        d: "it does not matter how slowly ou go, as long as you do not stop",
+        correctAnswer: 'c'
+    }, 
+    {
+        question: "What is a Confucious quote?", 
+        a: "you miss 100 of the shots you don't take" , 
+        b: "one you've accepted your flaws, no one can use them against you", 
+        c: "life is like riding a bicycle, to keep your balance you must keep moving", 
+        d: "it does not matter how slowly ou go, as long as you do not stop",
+        correctAnswer: 'd'
+    }, 
+    {
+        question: "What is a Tyrion Lannister quote?", 
+        a: "you miss 100 of the shots you don't take" , 
+        b: "one you've accepted your flaws, no one can use them against you", 
+        c: "life is like riding a bicycle, to keep your balance you must keep moving", 
+        d: "it does not matter how slowly ou go, as long as you do not stop",
+        correctAnswer: 'b'
+    }, 
+    {
+        question: "What is a Wayne Gretzky quote?", 
+        a: "you miss 100 of the shots you don't take" , 
+        b: "one you've accepted your flaws, no one can use them against you", 
+        c: "life is like riding a bicycle, to keep your balance you must keep moving", 
+        d: "it does not matter how slowly ou go, as long as you do not stop",
         correctAnswer: 'a'
     }, 
     {
-        question: "This is a test test question. The answer is A", 
-        a: 'my brain is fried, I need to take a break '  , 
-        b: "ouch, that's it i'm done", 
-        c: "it's a meme. i need to add pictures", 
-        d: "DOH! goes Homer Simpson",
+        question: "What is an Albert Einstein quote?", 
+        a: "you miss 100 of the shots you don't take" , 
+        b: "one you've accepted your flaws, no one can use them against you", 
+        c: "life is like riding a bicycle, to keep your balance you must keep moving", 
+        d: "it does not matter how slowly ou go, as long as you do not stop",
+        correctAnswer: 'c'
+    }, 
+    {
+        question: "What is a Confucious quote?", 
+        a: "you miss 100 of the shots you don't take" , 
+        b: "one you've accepted your flaws, no one can use them against you", 
+        c: "life is like riding a bicycle, to keep your balance you must keep moving", 
+        d: "it does not matter how slowly ou go, as long as you do not stop",
+        correctAnswer: 'd'
+    }, 
+    {
+        question: "What is a Tyrion Lannister quote?", 
+        a: "you miss 100 of the shots you don't take" , 
+        b: "one you've accepted your flaws, no one can use them against you", 
+        c: "life is like riding a bicycle, to keep your balance you must keep moving", 
+        d: "it does not matter how slowly ou go, as long as you do not stop",
+        correctAnswer: 'b'
+    }, 
+    {
+        question: "What is a Wayne Gretzky quote?", 
+        a: "you miss 100 of the shots you don't take" , 
+        b: "one you've accepted your flaws, no one can use them against you", 
+        c: "life is like riding a bicycle, to keep your balance you must keep moving", 
+        d: "it does not matter how slowly ou go, as long as you do not stop",
         correctAnswer: 'a'
     }, 
     {
-        question: "This is a test test question. The answer is A", 
-        a: 'my brain is fried, I need to take a break '  , 
-        b: "ouch, that's it i'm done", 
-        c: "it's a meme. i need to add pictures", 
-        d: "DOH! goes Homer Simpson",
-        correctAnswer: 'a'
+        question: "What is an Albert Einstein quote?", 
+        a: "you miss 100 of the shots you don't take" , 
+        b: "one you've accepted your flaws, no one can use them against you", 
+        c: "life is like riding a bicycle, to keep your balance you must keep moving", 
+        d: "it does not matter how slowly ou go, as long as you do not stop",
+        correctAnswer: 'c'
     }, 
     {
-        question: "This is a test test question. The answer is A", 
-        a: 'my brain is fried, I need to take a break '  , 
-        b: "ouch, that's it i'm done", 
-        c: "it's a meme. i need to add pictures", 
-        d: "DOH! goes Homer Simpson",
-        correctAnswer: 'a'
-    }, 
-    {
-        question: "This is a test test question. The answer is A", 
-        a: 'my brain is fried, I need to take a break '  , 
-        b: "ouch, that's it i'm done", 
-        c: "it's a meme. i need to add pictures", 
-        d: "DOH! goes Homer Simpson",
-        correctAnswer: 'a'
-    }, 
-    {
-        question: "This is a test test question. The answer is A", 
-        a: 'my brain is fried, I need to take a break '  , 
-        b: "ouch, that's it i'm done", 
-        c: "it's a meme. i need to add pictures", 
-        d: "DOH! goes Homer Simpson",
-        correctAnswer: 'a'
-    }, 
-    {
-        question: "This is a test test question. The answer is A", 
-        a: 'my brain is fried, I need to take a break '  , 
-        b: "ouch, that's it i'm done", 
-        c: "it's a meme. i need to add pictures", 
-        d: "DOH! goes Homer Simpson",
-        correctAnswer: 'a'
-    }, 
-    {
-        question: "This is a test test question. The answer is A", 
-        a: 'my brain is fried, I need to take a break '  , 
-        b: "ouch, that's it i'm done", 
-        c: "it's a meme. i need to add pictures", 
-        d: "DOH! goes Homer Simpson",
-        correctAnswer: 'a'
-    }, 
-    {
-        question: "This is a test test question. The answer is A", 
-        a: 'my brain is fried, I need to take a break '  , 
-        b: "ouch, that's it i'm done", 
-        c: "it's a meme. i need to add pictures", 
-        d: "DOH! goes Homer Simpson",
-        correctAnswer: 'a'
-    }, 
-    {
-        question: "This is a test test question. The answer is A", 
-        a: 'my brain is fried, I need to take a break '  , 
-        b: "ouch, that's it i'm done", 
-        c: "it's a meme. i need to add pictures", 
-        d: "DOH! goes Homer Simpson",
-        correctAnswer: 'a'
-    }, 
-    {
-        question: "This is a test test question. The answer is A", 
-        a: 'my brain is fried, I need to take a break '  , 
-        b: "ouch, that's it i'm done", 
-        c: "it's a meme. i need to add pictures", 
-        d: "DOH! goes Homer Simpson",
-        correctAnswer: 'a'
-    }, 
-    {
-        question: "This is a test test question. The answer is A", 
-        a: 'my brain is fried, I need to take a break '  , 
-        b: "ouch, that's it i'm done", 
-        c: "it's a meme. i need to add pictures", 
-        d: "DOH! goes Homer Simpson",
-        correctAnswer: 'a'
-    }, 
-    {
-        question: "This is a test test question. The answer is A", 
-        a: 'my brain is fried, I need to take a break '  , 
-        b: "ouch, that's it i'm done", 
-        c: "it's a meme. i need to add pictures", 
-        d: "DOH! goes Homer Simpson",
-        correctAnswer: 'a'
-    }, 
-    {
-        question: "This is a test test question. The answer is A", 
-        a: 'my brain is fried, I need to take a break '  , 
-        b: "ouch, that's it i'm done", 
-        c: "it's a meme. i need to add pictures", 
-        d: "DOH! goes Homer Simpson",
-        correctAnswer: 'a'
-    }, 
-    {
-        question: "This is a test test question. The answer is A", 
-        a: 'my brain is fried, I need to take a break '  , 
-        b: "ouch, that's it i'm done", 
-        c: "it's a meme. i need to add pictures", 
-        d: "DOH! goes Homer Simpson",
-        correctAnswer: 'a'
-    }, 
-    {
-        question: "This is a test test question. The answer is A", 
-        a: 'my brain is fried, I need to take a break '  , 
-        b: "ouch, that's it i'm done", 
-        c: "it's a meme. i need to add pictures", 
-        d: "DOH! goes Homer Simpson",
-        correctAnswer: 'a'
+        question: "What is a Confucious quote?", 
+        a: "you miss 100 of the shots you don't take" , 
+        b: "one you've accepted your flaws, no one can use them against you", 
+        c: "life is like riding a bicycle, to keep your balance you must keep moving", 
+        d: "it does not matter how slowly ou go, as long as you do not stop",
+        correctAnswer: 'd'
     }
 ];
 
@@ -550,6 +550,64 @@ let wrongAnswers = [];
 const wrongAnswerTextArea = document.querySelector("#wrong-answers");
 
 
+// show the comments on the score modal 
+function showComments() {
+    // enter an encouragement message 
+    if (score === 20) {
+        encouragment.innerHTML = "That was amazing! &#128512;"
+    } else if (score > 17) {
+        encouragment.innerHTML = "Great work! &#128512; <br> You have been doing your Anki!"
+    } else if (score > 16) {
+        encouragment.innerHTML = "Not bad! &#128533; <br> We'll have to find the ones you got wrong (on our next version) so you can study some more!"
+    } else if (score > 11) {
+        encouragment.innerHTML = "Oh, so close! &#128533; <br> I'd recommend trying again! Or visiting <a href='https://www.w3schools.com/'>w3schools.com</a> to get more practice."
+    } else if (score <= 11) {
+        encouragment.innerHTML = "Hey! Nice try &#128533; <br> but you need to study a bit more. <br> Don't give up! <br> Visit <a href='https://www.w3schools.com/'>w3schools.com</a> for some good practice"
+    }
+
+}
+
+
+// show the wrong answers from the quiz
+function showWrongAnswers() {
+    // create an h3 element to check the mistakes
+    let tryAgain = document.createElement('h3');
+    tryAgain.innerHTML = "...Check below for your mistakes..."
+    wrongAnswerTextArea.appendChild(tryAgain);
+
+    for (let i=0; i<wrongAnswers.length; i++) {
+        // loop through the questions, select the wrong answer question and display it.
+        let question = document.createElement('h3');
+        question.innerHTML = `${wrongAnswers[i] + 1} - ${questionsToAsk[wrongAnswers[i]].question}`;
+        wrongAnswerTextArea.appendChild(question);
+
+        // create an answer and push the elemnt to it
+        let answer_a = document.createElement('p');
+        answer_a.innerHTML = `a. ${questionsToAsk[wrongAnswers[i]].a}`;
+        wrongAnswerTextArea.appendChild(answer_a);
+
+        let answer_b = document.createElement('p');
+        answer_b.innerHTML = `b. ${questionsToAsk[wrongAnswers[i]].b}`;
+        wrongAnswerTextArea.appendChild(answer_b);
+
+        let answer_c = document.createElement('p');
+        answer_c.innerHTML = `c. ${questionsToAsk[wrongAnswers[i]].c}`;
+        wrongAnswerTextArea.appendChild(answer_c);
+
+        let answer_d = document.createElement('p');
+        answer_d.innerHTML = `d. ${questionsToAsk[wrongAnswers[i]].d}`;
+        wrongAnswerTextArea.appendChild(answer_d);
+
+        let correctAnswerText = document.createElement('p');
+        correctAnswerText.innerHTML = `Correct Answer: ${questionsToAsk[wrongAnswers[i]].correctAnswer}`;
+        correctAnswerText.style.color = 'red';
+        wrongAnswerTextArea.appendChild(correctAnswerText);
+    }
+}
+
+
+
+
 // get the next question to display on the screen
 submitBtn.addEventListener('click', () => {
     // get the answer the user selected
@@ -577,59 +635,11 @@ submitBtn.addEventListener('click', () => {
             // show score in percentage 
             scorePercent.innerText = (((score / 20) * 100).toFixed(0))
 
+            // show the score and comments function is called
+            showComments();
 
-            // enter an encouragement message 
-            if (score === 20) {
-                encouragment.innerHTML = "That was amazing! &#128512;"
-            } else if (score > 17) {
-                encouragment.innerHTML = "Great work! &#128512; <br> You have been doing your Anki!"
-            } else if (score > 16) {
-                encouragment.innerHTML = "Not bad! &#128533; <br> We'll have to find the ones you got wrong (on our next version) so you can study some more!"
-            } else if (score > 11) {
-                encouragment.innerHTML = "Oh, so close! &#128533; <br> I'd recommend trying again! Or visiting <a href='https://www.w3schools.com/'>w3schools.com</a> to get more practice."
-            } else if (score <= 11) {
-                encouragment.innerHTML = "Hey! Nice try &#128533; <br> but you need to study a bit more. <br> Don't give up! <br> Visit <a href='https://www.w3schools.com/'>w3schools.com</a> for some good practice"
-            }
-
-            // create an h3 element to check the mistakes
-            let tryAgain = document.createElement('h3');
-            tryAgain.innerHTML = "...Check below for your mistakes..."
-            wrongAnswerTextArea.appendChild(tryAgain);
-
-            for (let i=0; i<wrongAnswers.length; i++) {
-                // loop through the questions, select the wrong answer question and display it.
-                let question = document.createElement('h3');
-                question.innerHTML = `${wrongAnswers[i] + 1} - ${questionsToAsk[wrongAnswers[i]].question}`;
-                wrongAnswerTextArea.appendChild(question);
-
-                // create an answer and push the elemnt to it
-                let answer_a = document.createElement('p');
-                answer_a.innerHTML = `a. ${questionsToAsk[wrongAnswers[i]].a}`;
-                wrongAnswerTextArea.appendChild(answer_a);
-
-                let answer_b = document.createElement('p');
-                answer_b.innerHTML = `b. ${questionsToAsk[wrongAnswers[i]].b}`;
-                wrongAnswerTextArea.appendChild(answer_b);
-
-                let answer_c = document.createElement('p');
-                answer_c.innerHTML = `c. ${questionsToAsk[wrongAnswers[i]].c}`;
-                wrongAnswerTextArea.appendChild(answer_c);
-
-                let answer_d = document.createElement('p');
-                answer_d.innerHTML = `d. ${questionsToAsk[wrongAnswers[i]].d}`;
-                wrongAnswerTextArea.appendChild(answer_d);
-
-                let correctAnswerText = document.createElement('p');
-                correctAnswerText.innerHTML = `Correct Answer: ${questionsToAsk[wrongAnswers[i]].correctAnswer}`;
-                wrongAnswerTextArea.appendChild(correctAnswerText);
-
-
-                // create a, b, c, d and replace that with the answers
-                // a_text.innerHTML = currentQuizData.a;
-                // b_text.innerHTML = currentQuizData.b;
-                // c_text.innerHTML = currentQuizData.c;
-                // d_text.innerHTML = currentQuizData.d;
-            }
+            showWrongAnswers();
+        
 
             // show the Final Score Modal
             leaderboardModal.style.display = 'none';
