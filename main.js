@@ -112,7 +112,7 @@ const javascriptQuestions = [
         correctAnswer: 'c'
     },
     { 
-        question: "<code>function checkForClass(day) { <br> if (day === 'tuesday') { return true; <br> } return 'did you get your days mixed up?'</code> <br> Is this a valid function?", 
+        question: "<code>function checkForClass(day) { <br> if (day === 'tuesday') { return true; <br> } return 'did you get your days mixed up?' }</code> <br> Is this a valid function?", 
         a: "Yes, it does not need an <code>else</code>", 
         b: "No, it needs an <code>else</code>", 
         c: "", 
