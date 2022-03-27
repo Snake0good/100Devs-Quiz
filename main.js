@@ -112,7 +112,7 @@ const javascriptQuestions = [
         correctAnswer: 'c'
     },
     { 
-        question: "<code>function checkForClass(day) { <br> if (day === 'tuesday') { return true; <br> } return 'did you get your days mixed up?' }</code> <br> Is this a valid function?", 
+        question: "<code>function checkForClass(day) { <br> if (day === 'tuesday') { return true; <br> } return 'did you get your days mixed up?'</code> <br> Is this a valid function?", 
         a: "Yes, it does not need an <code>else</code>", 
         b: "No, it needs an <code>else</code>", 
         c: "", 
@@ -348,10 +348,10 @@ const htmlQuestions = [
     }, 
     { 
         question: "What tag do you put an image into?", 
-        a: "<code><i></code>", 
-        b: "<code><a></code>", 
-        c: "<code><image></code>", 
-        d: "<code><img></code>", 
+        a: `<code> < i ></code>  `, 
+        b: "<code>< a ></code>", 
+        c: "<code>< image ></code>", 
+        d: "<code>< img ></code>", 
         correctAnswer: 'd'
     }, 
     {
@@ -364,131 +364,131 @@ const htmlQuestions = [
     }, 
     {
         question: "How would you jump to a footer with an <code><a></code> tag?", 
-        a: "<code><a href='$footer'></a></code>", 
-        b: "<code><a href='footer'></a></code>", 
-        c: "<code><a href='%footer'></a></code>", 
-        d: "<code><a name='footer'></a></code>", 
+        a: "<code>< a href='$footer' >< /a ></code>", 
+        b: "<code>< a href='footer' >< /a ></code>", 
+        c: "<code>< a href='%footer' >< /a ></code>", 
+        d: "<code>< a name='footer' >< /a ></code>", 
         correctAnswer: 'b'
     }, 
-    {
-        question: "What is a Wayne Gretzky quote?", 
-        a: "you miss 100 of the shots you don't take" , 
-        b: "one you've accepted your flaws, no one can use them against you", 
-        c: "life is like riding a bicycle, to keep your balance you must keep moving", 
-        d: "it does not matter how slowly ou go, as long as you do not stop",
+    { 
+        question: "What is Hypertext Markup Language", 
+        a: "HTML", 
+        b: "CSS", 
+        c: "JS", 
+        d: "Java",
         correctAnswer: 'a'
     }, 
     {
-        question: "What is an Albert Einstein quote?", 
-        a: "you miss 100 of the shots you don't take" , 
-        b: "one you've accepted your flaws, no one can use them against you", 
-        c: "life is like riding a bicycle, to keep your balance you must keep moving", 
-        d: "it does not matter how slowly ou go, as long as you do not stop",
-        correctAnswer: 'c'
+        question: "Which is not a proper HTML element?", 
+        a: "div", 
+        b: "bold", 
+        c: "h1", 
+        d: "anchor",
+        correctAnswer: 'b'
     }, 
-    {
-        question: "What is a Confucious quote?", 
-        a: "you miss 100 of the shots you don't take" , 
-        b: "one you've accepted your flaws, no one can use them against you", 
-        c: "life is like riding a bicycle, to keep your balance you must keep moving", 
-        d: "it does not matter how slowly ou go, as long as you do not stop",
+    { 
+        question: "What tag do you put an image into?", 
+        a: `<code> < i ></code>  `, 
+        b: "<code>< a ></code>", 
+        c: "<code>< image ></code>", 
+        d: "<code>< img ></code>", 
         correctAnswer: 'd'
     }, 
     {
-        question: "What is a Tyrion Lannister quote?", 
-        a: "you miss 100 of the shots you don't take" , 
-        b: "one you've accepted your flaws, no one can use them against you", 
-        c: "life is like riding a bicycle, to keep your balance you must keep moving", 
-        d: "it does not matter how slowly ou go, as long as you do not stop",
-        correctAnswer: 'b'
+        question: "What do you add to an <code><a></code> tag to open a new web page?", 
+        a: "rel = 'nofollow'",
+        b: "href='https://www.website.com'",
+        c: "target='_blank'", 
+        d: "target='_new'",
+        correctAnswer: 'c'
     }, 
     {
-        question: "What is a Wayne Gretzky quote?", 
-        a: "you miss 100 of the shots you don't take" , 
-        b: "one you've accepted your flaws, no one can use them against you", 
-        c: "life is like riding a bicycle, to keep your balance you must keep moving", 
-        d: "it does not matter how slowly ou go, as long as you do not stop",
+        question: "How would you jump to a footer with an <code><a></code> tag?", 
+        a: "<code>< a href='$footer' >< /a ></code>", 
+        b: "<code>< a href='footer' >< /a ></code>", 
+        c: "<code>< a href='%footer' >< /a ></code>", 
+        d: "<code>< a name='footer' >< /a ></code>", 
+        correctAnswer: 'b'
+    }, 
+    { 
+        question: "What is Hypertext Markup Language", 
+        a: "HTML", 
+        b: "CSS", 
+        c: "JS", 
+        d: "Java",
         correctAnswer: 'a'
     }, 
     {
-        question: "What is an Albert Einstein quote?", 
-        a: "you miss 100 of the shots you don't take" , 
-        b: "one you've accepted your flaws, no one can use them against you", 
-        c: "life is like riding a bicycle, to keep your balance you must keep moving", 
-        d: "it does not matter how slowly ou go, as long as you do not stop",
-        correctAnswer: 'c'
+        question: "Which is not a proper HTML element?", 
+        a: "div", 
+        b: "bold", 
+        c: "h1", 
+        d: "anchor",
+        correctAnswer: 'b'
     }, 
-    {
-        question: "What is a Confucious quote?", 
-        a: "you miss 100 of the shots you don't take" , 
-        b: "one you've accepted your flaws, no one can use them against you", 
-        c: "life is like riding a bicycle, to keep your balance you must keep moving", 
-        d: "it does not matter how slowly ou go, as long as you do not stop",
+    { 
+        question: "What tag do you put an image into?", 
+        a: `<code> < i ></code>  `, 
+        b: "<code>< a ></code>", 
+        c: "<code>< image ></code>", 
+        d: "<code>< img ></code>", 
         correctAnswer: 'd'
     }, 
     {
-        question: "What is a Tyrion Lannister quote?", 
-        a: "you miss 100 of the shots you don't take" , 
-        b: "one you've accepted your flaws, no one can use them against you", 
-        c: "life is like riding a bicycle, to keep your balance you must keep moving", 
-        d: "it does not matter how slowly ou go, as long as you do not stop",
-        correctAnswer: 'b'
+        question: "What do you add to an <code><a></code> tag to open a new web page?", 
+        a: "rel = 'nofollow'",
+        b: "href='https://www.website.com'",
+        c: "target='_blank'", 
+        d: "target='_new'",
+        correctAnswer: 'c'
     }, 
     {
-        question: "What is a Wayne Gretzky quote?", 
-        a: "you miss 100 of the shots you don't take" , 
-        b: "one you've accepted your flaws, no one can use them against you", 
-        c: "life is like riding a bicycle, to keep your balance you must keep moving", 
-        d: "it does not matter how slowly ou go, as long as you do not stop",
+        question: "How would you jump to a footer with an <code><a></code> tag?", 
+        a: "<code>< a href='$footer' >< /a ></code>", 
+        b: "<code>< a href='footer' >< /a ></code>", 
+        c: "<code>< a href='%footer' >< /a ></code>", 
+        d: "<code>< a name='footer' >< /a ></code>", 
+        correctAnswer: 'b'
+    }, 
+    { 
+        question: "What is Hypertext Markup Language", 
+        a: "HTML", 
+        b: "CSS", 
+        c: "JS", 
+        d: "Java",
         correctAnswer: 'a'
     }, 
     {
-        question: "What is an Albert Einstein quote?", 
-        a: "you miss 100 of the shots you don't take" , 
-        b: "one you've accepted your flaws, no one can use them against you", 
-        c: "life is like riding a bicycle, to keep your balance you must keep moving", 
-        d: "it does not matter how slowly ou go, as long as you do not stop",
-        correctAnswer: 'c'
-    }, 
-    {
-        question: "What is a Confucious quote?", 
-        a: "you miss 100 of the shots you don't take" , 
-        b: "one you've accepted your flaws, no one can use them against you", 
-        c: "life is like riding a bicycle, to keep your balance you must keep moving", 
-        d: "it does not matter how slowly ou go, as long as you do not stop",
-        correctAnswer: 'd'
-    }, 
-    {
-        question: "What is a Tyrion Lannister quote?", 
-        a: "you miss 100 of the shots you don't take" , 
-        b: "one you've accepted your flaws, no one can use them against you", 
-        c: "life is like riding a bicycle, to keep your balance you must keep moving", 
-        d: "it does not matter how slowly ou go, as long as you do not stop",
+        question: "Which is not a proper HTML element?", 
+        a: "div", 
+        b: "bold", 
+        c: "h1", 
+        d: "anchor",
         correctAnswer: 'b'
     }, 
-    {
-        question: "What is a Wayne Gretzky quote?", 
-        a: "you miss 100 of the shots you don't take" , 
-        b: "one you've accepted your flaws, no one can use them against you", 
-        c: "life is like riding a bicycle, to keep your balance you must keep moving", 
-        d: "it does not matter how slowly ou go, as long as you do not stop",
-        correctAnswer: 'a'
+    { 
+        question: "What tag do you put an image into?", 
+        a: `<code> < i ></code>  `, 
+        b: "<code>< a ></code>", 
+        c: "<code>< image ></code>", 
+        d: "<code>< img ></code>", 
+        correctAnswer: 'd'
     }, 
     {
-        question: "What is an Albert Einstein quote?", 
-        a: "you miss 100 of the shots you don't take" , 
-        b: "one you've accepted your flaws, no one can use them against you", 
-        c: "life is like riding a bicycle, to keep your balance you must keep moving", 
-        d: "it does not matter how slowly ou go, as long as you do not stop",
+        question: "What do you add to an <code><a></code> tag to open a new web page?", 
+        a: "rel = 'nofollow'",
+        b: "href='https://www.website.com'",
+        c: "target='_blank'", 
+        d: "target='_new'",
         correctAnswer: 'c'
     }, 
     {
-        question: "What is a Confucious quote?", 
-        a: "you miss 100 of the shots you don't take" , 
-        b: "one you've accepted your flaws, no one can use them against you", 
-        c: "life is like riding a bicycle, to keep your balance you must keep moving", 
-        d: "it does not matter how slowly ou go, as long as you do not stop",
-        correctAnswer: 'd'
+        question: "How would you jump to a footer with an <code><a></code> tag?", 
+        a: "<code>< a href='$footer' >< /a ></code>", 
+        b: "<code>< a href='footer' >< /a ></code>", 
+        c: "<code>< a href='%footer' >< /a ></code>", 
+        d: "<code>< a name='footer' >< /a ></code>", 
+        correctAnswer: 'b'
     }
 ];
 
@@ -754,3 +754,4 @@ for (let i=0; i<leaderBoardBtn.length; i++) {
     })
 
 }
+
